@@ -10,6 +10,13 @@ Currently there are two hooks in the 'cookbook upload' command:
 
 When the hook code runs it checks if the configuration options 'prevalidate_hook' and 'postvalidate_hook' are set (e.g in knife.rb) and runs the scripts they point to. 
 
+Example knife.rb settings:
+
+```
+prevalidate_hook         "/home/user/Chef/prevalidate_cookbook.sh"
+postvalidate_hook        "/home/user/Chef/postvalidate_cookbook.sh"
+```
+
 Scripts will have the following environment variables set:
 
 ```
