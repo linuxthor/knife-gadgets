@@ -1,5 +1,5 @@
 # knife-gadgets
-A knife plugin that add hooks to knife to run external scripts at key points and potentially abort the action being taken. 
+A knife plugin that adds hooks to knife to run external scripts at key points and potentially abort the action being taken. 
 
 Install by copying to .chef/plugins/knife/ 
 
