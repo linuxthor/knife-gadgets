@@ -5,8 +5,8 @@ Install by copying to .chef/plugins/knife/
 
 Currently there are two hooks in the 'cookbook upload' command:
 
-1) Before syntax checking (useful for extra checking/linting of cookbooks)
-2) After syntax checking has passed but before upload takes place (a good place to commit to SCM etc) 
+1. Before syntax checking (useful for extra checking/linting of cookbooks)
+2. After syntax checking has passed but before upload takes place (a good place to commit to SCM etc) 
 
 When the hook code runs it checks if the configuration options 'prevalidate_hook' and 'postvalidate_hook' are set (e.g in knife.rb) and runs the scripts they point to. 
 
